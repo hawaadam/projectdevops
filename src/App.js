@@ -78,7 +78,7 @@ function App() {
         display: 'flex',
         flexDirection: 'column'
       }}>
-        <h2 style={{ textAlign: 'center' }}>📁 The React App</h2>
+        <h2 style={{ textAlign: 'center' }}>📁 My React App</h2>
         <ul style={{ listStyle: 'none', padding: 0 }}>
           {menuItems.map(item => (
             <li key={item.key} style={{ margin: '10px 0' }}>
